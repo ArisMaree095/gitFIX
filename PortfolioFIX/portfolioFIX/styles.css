@@ -1,0 +1,132 @@
+
+*{
+font-family: Aleo;
+} 
+
+body{
+margin: 0;
+padding: 0;
+background-color: #05668D;
+
+}
+
+.menu{
+    background-color: #00A896;
+    color: #FEFFE5;
+    position: fixed;   
+}
+
+footer{
+    background-color: #00A896;
+    color: #FEFFE5;
+    size: 25px;
+}
+
+
+/* Color that I wanna use: #274C77*/
+
+.about {
+    font-size:20px;
+    font-weight: 400;
+background-color: #FEFFE5;
+padding: 40px 20px;
+border-radius: 15px;
+position: relative;
+text-align: center;
+max-width: 600px;
+margin: 0 auto;
+box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+}
+
+about p{
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+    line-height: 1.5;
+}
+
+.Ariana{
+    width: 200px;
+    object-fit: cover;
+    height: 200px;
+    box-shadow: 0 0 0 2px #FEFFE5;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+}
+
+.text-content{
+    margin-top: 10%;
+    padding: 0 10px;
+}
+
+.image-card{
+    position: absolute;
+    top: -90px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+
+    /*box-settings*/
+    border-radius: 10%;
+}
+
+.imagenes-container{
+    width: 195px;
+    display: flex;
+    justify-content: space-around;
+
+    flex-wrap: wrap;
+    gap: 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    min-width: 50%;
+    min-height: 50;
+    max-width: 150%;
+    max-height: 150%;
+}
+img{ 
+    border-radius: 20px;
+    width: 100%;
+    box-shadow: 0 0 3px black, 0 5px 8px 3px rgba(black, 0.6);
+
+}
+
+.imagenes{
+min-width: 0;
+border-radius: 5px;
+overflow: hidden;
+box-shadow: 0 0 3px white, 0 5px 8px 3px rgba(black, 0.6);
+transition: transform 0.25s ease-in-out, opacity 0.25s ease-in-out;
+}
+.row{
+    display: flex;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.button {
+background: #00A896;
+color: #FEFFE5;
+font-size: 16px;
+text-decoration: none;
+padding: 25px 30px;
+display: inline-block;
+margin: 0 10px;
+border-radius: 30px;
+}
+
+.button:hover{
+    opacity: .8;
+    background-color: #057a7e;
+}
+
+div{
+    margin: 20px 0;
+}
+
